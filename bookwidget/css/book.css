@@ -16,8 +16,10 @@
     transform: translateX(-50%);
     -webkit-transition: transform 0.6s ease;
     transition: transform 0.6s ease;
-    -webkit-perspective: 2400px;
-    perspective: 2400px;
+    -webkit-perspective: 3400px;
+    perspective: 3400px;
+    -webkit-perspective-origin: left center;
+    perspective-origin: left center;
 }
 
 .b-book__page {

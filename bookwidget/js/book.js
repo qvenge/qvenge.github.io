@@ -49,7 +49,7 @@
             liftDropDuration: 500,
             selfShadow: 0.3,
             castShadow: 0.4,
-            bookWidth: '70%',
+            bookWidth: '86%',
             liftAngle: 20,
 
             preloaderSrc: 'preloader.svg',
