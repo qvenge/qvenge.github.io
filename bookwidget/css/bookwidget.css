@@ -1,0 +1,84 @@
+.book-widget {
+    overflow: hidden;
+    margin: 0;
+    padding: 150px 0;
+    text-align: center;
+    font-family: 'DIN Pro Bold';
+}
+
+.book-widget__wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.book-widget__arrow {
+    cursor: pointer;
+    fill: #fff;
+    width: 3%;
+    position: absolute;
+    top: 50%;
+    margin-top: -75px;
+}
+.book-widget__arrow_prev {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    left: 7%;
+}
+
+.book-widget__arrow_next {
+    right: 7%;
+}
+.book-widget__arrow_disabled {
+    cursor: unset;
+    fill: rgb(190, 190, 190);
+}
+/* .book-widget__arrow_hidden {
+    display: none;
+} */
+
+
+.b-pagination {
+    display: inline-flex;
+    overflow: hidden;
+    width: 180px;
+    padding-top: 60px;
+}
+.b-pagination__list {
+    white-space: nowrap;
+    margin-left: 0;
+    -webkit-transition: margin-left 0.1s ease;
+    transition: margin-left 0.1s ease;
+}
+.b-pagination__leaf {
+
+}
+.b-pagination__leaf_left {
+
+}
+.b-pagination__leaf_right {
+
+}
+.b-pagination__page {
+    color: rgb(240, 240, 240);
+    font-size: 20px;
+    width: 1em;
+    display: inline-block;
+    padding: 0 8px;
+    cursor: pointer;
+    -webkit-transition: color 0.1s ease;
+    transition: color 0.1s ease;
+}
+.b-pagination__page_selected {
+    color: yellow;
+    cursor: unset;
+}
+
+@font-face {
+    font-family: 'DIN Pro Bold';
+    src: url('../fonts/DINPro-Bold.woff') format('woff'),
+        url('../fonts/DINPro-Bold.ttf') format('opentype');
+}

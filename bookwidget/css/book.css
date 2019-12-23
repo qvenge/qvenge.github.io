@@ -1,0 +1,26 @@
+.b-book {
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+}
+
+.b-book__container {
+    position: absolute;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: transform 0.6s ease;
+    transition: transform 0.6s ease;
+    -webkit-perspective: 2400px;
+    perspective: 2400px;
+}
+
+.b-book__page {
+    top: 0;
+    right: 0;
+}
