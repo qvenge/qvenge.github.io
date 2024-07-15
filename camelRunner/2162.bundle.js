@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunkpixi_tutor=self.webpackChunkpixi_tutor||[]).push([[2162],{2162:(t,u,e)=>{e.r(u),e(4732),e(9010),e(8480),e(8928),e(5285),e(6958),e(6444),e(7559),e(8723),e(7252),e(9935)}}]);
+"use strict";(self.webpackChunkcamel_runner=self.webpackChunkcamel_runner||[]).push([[2162],{2162:(e,n,r)=>{r.r(n),r(4732),r(9010),r(8480),r(8928),r(5285),r(6958),r(6444),r(7559),r(8723),r(7252),r(9935)}}]);

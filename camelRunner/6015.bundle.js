@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpixi_tutor=self.webpackChunkpixi_tutor||[]).push([[6015],{6015:(p,t,e)=>{p.exports=e.p+"18758d6b3c24d01ac4da.png"}}]);
